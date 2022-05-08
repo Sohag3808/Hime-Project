@@ -1,0 +1,465 @@
+@media only screen and (max-width: 1300px){
+    .header-section .middle-column {
+        width: 70%;
+        text-align: center;
+      }   
+    .header-section .right-column{
+        width: 15%;
+    }
+    .header-section .left-column{
+        width: 15%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .header-section .middle-column a{
+        margin-left: 30px;
+    }
+    .tv-internet-section .tv-internet-content{
+        column-gap: 30px;
+    }
+    .tv-internet-section .tv-sub-section .tv-left-column img{
+        max-width: 135px;
+    }
+    .tv-internet-section .internet-sub-section .internet-left-column img{
+        max-width: 160px;
+    
+    }
+    .header-section .middle-column li{
+        margin-left: 35px;
+    } 
+}
+@media only screen and (max-width: 1100px){
+    .banner-section .left-column h2{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .header-section .middle-column li{
+        margin-left: 15px;
+    } 
+}
+@media only screen and (max-width: 989px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tv-internet-section .tv-internet-content{
+        display: block;
+    }
+    .tv-internet-section .internet-sub-section{
+        margin-top: 20px;
+    }
+    .tv-internet-section .tv-sub-section .tv-left-column img{
+        max-width: 150px;
+    }
+    .tv-internet-section .internet-sub-section .internet-left-column img{
+        max-width: 183px;
+    
+    }
+    .header-section .right-column {
+        display: none;
+    }
+    .header-section .middle-column {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 62px;
+        text-align: right;
+        z-index: 9999;
+    }
+    .slicknav_menutxt{
+        margin-right: 30px;
+        opacity: 0;
+    }
+    .slicknav_nav{
+        width: 250px;
+        background: #003C46;
+        padding: 40px 10px;
+        margin-top: 22px;
+    }
+    .slicknav_nav li{
+        padding: 15px 20px;
+        border-bottom: 1px solid #DCDCDC;
+    }
+    .slicknav_nav a{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.4s;
+    }
+    .slicknav_nav a:hover{
+        color: #FF8278 ;
+    }
+    .slicknav_collapsed{
+        position: relative;
+      }
+      .slicknav_collapsed::after{
+        content: '';
+        background-image: url(../Image/Menu-Icon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 39%;
+        height: 28px;
+        left: 18px;
+        z-index: 9999;
+      }
+      .slicknav_open::after{
+        content: '';
+        background-image: url(../Image/close-icon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 10%;
+        height: 29px;
+        right: 30px;
+        z-index: 9999;
+      }
+}
+@media only screen and (max-width: 800px){
+    .banner-section {
+        padding-bottom: 40px;
+      }
+    .banner-section .banner-content{
+        flex-direction: column-reverse;
+    }
+    .banner-section .right-column{
+        width: 100%;
+    }
+    .banner-section .right-column img{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .banner-section .left-column{
+        width: 100%;
+    }
+    .banner-section .left-column h2{
+        font-size: 36px;
+    }
+    .banner-section .left-column h3{
+        padding-top: 30px;
+    }
+    .contact-section .contact-content{
+        width: 100%;
+        display: block;
+    }
+    .contact-section .contact-content .left-column{
+        width: 100%;
+    }
+    .contact-section .contact-content .left-column-item{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .contact-section .contact-content .left-column-text{
+        padding-bottom: 65px;
+    }
+    .contact-section .contact-content .right-column {
+        width: 100%;
+    }
+    .contact-logo {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .contact-section .contact-content {
+        padding-top: 45px;
+        padding-bottom: 80px;
+    }
+    .contact-section .right-column button {
+        padding: 14px 100px;
+    }
+    .contact-section .right-column .sub-button{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 786px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .kebol-tv-section .kebol-tv-content{
+        flex-direction: column-reverse;
+    }
+    .kebol-tv-section .kebol-tv-content .keboltv-right-column {
+        width: 100%;
+    }
+    .kebol-tv-section .kebol-tv-content .keboltv-left-column {
+        width: 100%;
+    }
+    .om-tv-section .om-tv-content{
+      display: block;
+    }
+    .om-tv-section .om-tv-content .omtv-left-column {
+        width: 100%;
+    }
+    .omtv-right-column .omtv-right-text {
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    .om-tv-section .om-tv-content .omtv-right-column {
+        width: 100%;
+    }
+    .kebol-tv-section .kebol-tv-content {
+        padding-top: 50px;
+    }
+    .kebol-tv-section .keboltv-headline {
+        text-align: center;
+        padding-top: 71px;
+    }
+    .keboltv-left-column .keboltv-left-text h2{
+        padding-top: 30px;
+    }
+    .om-tv-section .om-tv-content {
+        padding-top: 15px;
+    }
+    .omtv-right-column .omtv-right-text h2{
+        padding-top: 20px;
+    }
+    .omtv-right-column .omtv-right-text h2 {
+        padding-top: 30px;
+    }
+    .futter-section .futter-logo-content .left-column {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .futter-section .big-border{
+        display: none;
+    }
+    .futter-section .left-column{
+        border-bottom: 1px solid #fff;
+        margin-top: 20px;
+    }
+    .futter-section .futter-logo-content .right-column {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .futter-section .end-futter .end-left-column {
+        width: 100%;
+        text-align: center;
+    }
+    .futter-section .end-right-column .end-button {
+        text-align: center;
+        margin-top: 75px;
+    }
+    .futter-section .end-futter .end-right-column {
+        width: 100%;
+      }
+    .contact-section .right-column .input-form {
+        padding: 35px 30px;
+    }
+    .futter-section {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+      
+    .futter-section .container::before {
+        width: 130px;
+        height: 130px;
+        right: -30px;
+        top: -83px;
+        background-size: 100% 100%;
+    }
+    .contact-section .contact-content {
+        padding-bottom: 120px;
+    }
+    .tv-internet-section {
+        background: #DCDCDC;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .tv-internet-section .tv-internet-content {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 640px){
+
+}
+@media only screen and (max-width: 580px){
+    .tv-internet-section .tv-sub-section .tv-left-column{
+        width: 100%;
+        text-align: center;
+    }
+    .tv-internet-section .tv-sub-section .tv-right-column{
+        width: 100%;
+        text-align: center;
+    }
+    .tv-sub-section .tv-right-column h2{
+        padding-top: 40px;
+    }
+    .tv-sub-section .tv-right-column p{
+        margin: 0 auto;
+    }
+    .tv-internet-section .internet-sub-section .internet-left-column{
+        width: 100%;
+        text-align: center;
+    }
+    .tv-internet-section .internet-sub-section .internet-right-column{
+        width: 100%;
+        text-align: center;
+    }
+    .internet-sub-section .internet-right-column h2{
+        padding-top: 40px;
+    }
+    .internet-sub-section .internet-right-column p{
+        margin: 0 auto;
+    }
+    
+    .service-section .container::after {
+        width: 110px;
+        height: 110px;
+        background-size: 100% 100%;
+        top: -110px;
+    }
+    .om-tv-section .om-tv-content {
+        padding-bottom: 100px;
+    }
+    .service-section .service-content h2 {
+        font-size: 32px;
+        padding-bottom: 48px;
+    }
+    .service-section .services-about h2 {
+        font-size: 24px;
+    }
+    .service-section .ofte-stilt-item h4 {
+        font-size: 20px;
+    }
+    
+    .service-section .ofte-stilt-item h4::after {
+        font-size: 20px;
+    }
+    .service-section .ofte-stilt-item h4 {
+        padding: 18px 30px;
+    }
+    .service-section .services-about p {
+        font-size: 16px;
+    }
+    .service-section {
+        padding-top: 72px;
+        padding-bottom: 65px;
+    }
+    .service-section .services-about {
+        padding: 25px 30px;
+    }
+    .service-section .ofte-stilt-button {
+        padding-top: 36px;
+    }
+    .futter-section .container::before {
+        left: 125px;
+        top: -83px;
+        background-size: 100% 100%;
+    }
+}
+@media only screen and (max-width: 520px){
+    .top-header-section .left-column{
+        width: 78%;
+    }
+    .top-header-section .right-column{
+        width: 22%;
+    }
+    .futter-section .container::before {
+        left: 95px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .futter-section .container::before {
+        left: 85px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .banner-section  .se-tjenester {
+        font-size: 16px;
+        padding: 14px 30px;
+    }
+    .banner-section  .bestill {
+        font-size: 16px;
+        padding: 14px 45px;
+    }
+    .banner-section  .bestill::after{
+        right: 22px;
+        top: 16px;
+    }
+    .banner-section .se-tjenester::after{
+        right: 17px;
+    }
+    .service-section .services-about h2::after {
+        right: -22px;
+    }
+    .futter-section .end-futter .end-left-column a {
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .top-header-section .left-column{
+        width: 100%;
+        padding-bottom: 8px;
+    }
+    .top-header-section .right-column{
+        width: 100%;
+        text-align: left;
+        margin-left: 22px;
+    }
+    .contact-section .right-column button {
+        padding: 14px 50px;
+    }
+    .omtv-button button {
+        font-size: 15px;
+        padding: 14px 10px;
+    }
+    .futter-section .futter-logo-content .left-column a {
+        margin-right: 20px;
+    }
+    .futter-section .end-futter .copy-text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .futter-section .container::before {
+        left: 65px;
+    }
+    .futter-section .end-futter .end-left-column a {
+        margin-right: 15px;
+    }
+    .slicknav_collapsed::after{
+        left: 18px;
+        top: 24px;
+      }
+      .slicknav_open::after{
+        right: 30px;
+        top: 24px;
+      }
+      .slicknav_nav{
+          margin-top: 50px;
+      }
+}
+@media only screen and (max-width: 380px){
+        .banner-section  .se-tjenester {
+            font-size: 15px;
+            padding: 14px 20px;
+        }
+        .banner-section  .bestill {
+            font-size: 15px;
+            padding: 14px 35px;
+        }
+        .banner-section  .bestill::after{
+            right: 16px;
+            top: 16px;
+        }
+        .banner-section .se-tjenester::after{
+            right: 6px;
+        }
+        .futter-section .futter-logo-content .left-column a {
+            margin-right: 15px;
+          }
+}
+@media only screen and (max-width: 320px){
+
+}
